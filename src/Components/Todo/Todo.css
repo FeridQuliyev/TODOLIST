@@ -1,0 +1,21 @@
+.todo{
+display: flex;
+width: 50%;
+margin: 0 auto;
+margin-top: 5px;
+margin-bottom: 15px; 
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: 60px;
+border-radius: 15px;
+}
+.list p{
+padding: 0 50px;    
+font-size: 30px;
+color: #00A3FF;
+margin-top: 15px;    
+}
+.list h1{
+font-size: 25px;        
+padding: 0 30px;
+margin-top: 15px;   
+}

@@ -1,0 +1,38 @@
+.todoform{
+background: linear-gradient(269.38deg, rgba(172, 0, 253, 0.58) 20.07%, rgba(0, 248, 233, 0.58) 82.18%);
+text-align: center;
+height: 50vh;
+}
+.title h1{
+width: 38%;
+margin: 0 auto;    
+padding: 12px; 
+color: #fff;
+font-weight: 600;
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: start; 
+}
+.form{
+width: 80%;
+margin: 0 auto;    
+padding-top: 185px;    
+}
+.form input{
+padding: 15px 80px;
+outline: none; 
+border-color: #fff;
+font-size: 20px;
+position: relative;   
+}
+.form button{
+padding: 8px 20px;
+margin-top: 9px;
+left: 59%;
+color: #fff;
+font-size: 20px;
+background: #00A3FF;
+border:#00A3FF ;
+border-radius: 5px;
+position: absolute;
+}
