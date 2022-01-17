@@ -3,7 +3,6 @@ background: url("../image/bgimage.jpg")center/cover;
 background-repeat: no-repeat;
 text-align: center;
 height: 50vh;
-position: relative;
 }
 .title h1{
 width: 38%;
@@ -18,7 +17,7 @@ text-align: start;
 .form{
 width: 80%;
 margin: 0 auto;    
-padding-top: 185px;    
+padding-top: 180px;  
 }
 .form input{
 padding: 15px 80px;
