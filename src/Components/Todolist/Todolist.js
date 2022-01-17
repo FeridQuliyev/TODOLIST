@@ -4,14 +4,12 @@ import { useState } from 'react'
 import Todoform from '../TodoForm/Todoform'
 import Todo from "../Todo/Todo"
 function Todolist() {
-    const [todos, setTodos] = useState([])
+    const [todos, setTodos] = useState([])  
 
     function addTask(userInput) {
         if (userInput) {
             const newItem = {
-                id: Math.random().toString(36).substring(2, 9),
                 task: userInput,
-                complete: false
             }
             setTodos([...todos, newItem])
         }

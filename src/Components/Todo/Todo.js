@@ -8,7 +8,7 @@ function Todo({ todo }) {
                 <p><BsCircle/></p>
             </div>
             <div className='list' >
-               <h1> {todo.task}</h1>
+               <h1>{todo.task}</h1>
             </div>
         </div>
     )
