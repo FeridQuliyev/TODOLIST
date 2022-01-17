@@ -2,11 +2,10 @@
 display: flex;
 width: 50%;
 margin: 0 auto;
-margin-top: 5px;
-margin-bottom: 15px; 
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+border-bottom: 1px solid rgba(128, 128, 128, 0.432);
 height: 60px;
-border-radius: 15px;
+border-radius: 0px 0xp 10px;
 }
 .list p{
 padding: 0 50px;    

@@ -3,9 +3,7 @@
 justify-content: space-between;
 width: 50%;
 margin: 0 auto;
-margin-top: 15px;
-margin-bottom: 15px; 
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 height: 60px;
 border-radius: 15px; 
 }
