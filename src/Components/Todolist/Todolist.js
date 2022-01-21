@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Todoform from '../TodoForm/Todoform'
 import Todo from "../Todo/Todo"
 function Todolist() {
-    const [todos, setTodos] = useState([])  
+    const [todos, setTodos] = useState([])
 
     function addTask(userInput) {
         if (userInput) {
@@ -21,27 +21,26 @@ function Todolist() {
     };
 
     return (
-        <div>
+        <>
             <Todoform addTask={addTask} />
-            {
-                todos.map(
-                    (todo) => {
-                        return <Todo
-                            todo={todo}
-                            key={todo.id}
-                        />
-                    }
-                )
-            }
-            <div className="text">
-                <div className='words'>
-                    <h1>Ümumi {todos.length} tapşırığ</h1>
-                </div>
-                <div onClick={delet} >
-                    <h1>Hamisi silinsin</h1>
+            <div className='task-list-container'>
+                <div className='task-list'>
+                    <div className='tasks'>
+                        {
+                            todos.map(todo => (<Todo todo={todo} key={todo.id} />))
+                        }
+                    </div>
+                    <div className="task-footer">
+                        <div>
+                            Ümumi {todos.length} tapşırığ
+                        </div>
+                        <div onClick={delet} >
+                            Hamisi silinsin
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

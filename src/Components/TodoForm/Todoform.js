@@ -21,15 +21,17 @@ function Todoform({ addTask }) {
         <div className='todoform' >
             <form className='form' onSubmit={submitHandler} >
                 <div className='title'>
-                <h1>TODO</h1>
+                    <h1>TODO</h1>
                 </div>
-                <input
-                    value={userInput}
-                    type="text"
-                    onChange={inputHandler}
-                    placeholder='Tapşırığı daxiı edin'
-                />
-                <button type='submit' ><BsFillPlusSquareFill /></button>
+                <div className='input-group'>
+                    <input
+                        value={userInput}
+                        type="text"
+                        onChange={inputHandler}
+                        placeholder='Tapşırığı daxiı edin'
+                    />
+                    <button type='submit' ><BsFillPlusSquareFill /></button>
+                </div>
             </form>
         </div>
     )

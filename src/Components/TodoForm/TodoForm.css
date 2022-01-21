@@ -1,39 +1,66 @@
-.todoform{   
-background: url("../image/bgimage.jpg")center/cover;
-background-repeat: no-repeat;
-text-align: center;
-height: 50vh;
+.todoform {
+  background: url("../../Assets/image/bgimage.jpg") center/cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 296px;
+  padding-top: 70px;
+  box-sizing: border-box;
 }
-.title h1{
-width: 38%;
-margin: 0 auto;    
-padding: 12px; 
-color: #fff;
-font-weight: 600;
-font-size: 35px;
-font-family: Arial, Helvetica, sans-serif;
-text-align: start; 
+
+.form {
+  width: 579px;
+  margin: 0 auto;
 }
-.form{
-width: 80%;
-margin: 0 auto;    
-padding-top: 180px;  
+
+.title h1 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 18px;
 }
-.form input{
-padding: 15px 80px;
-outline: none; 
-border-color: #fff;
-font-size: 20px;
-position: relative;   
+
+.input-group {
+  position: relative;
 }
-.form button{
-padding: 8px 20px;
-margin-top: 9px;
-left: 59%;
-color: #fff;
-font-size: 20px;
-background: #00A3FF;
-border:#00A3FF ;
-border-radius: 5px;
-position: absolute;
+
+.input-group input {
+  width: 579px;
+  box-sizing: border-box;
+  padding: 25px 66px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #414141;
+}
+
+::placeholder {
+  color: #cecece;
+}
+
+:-ms-input-placeholder {
+  color: #cecece;
+}
+
+::-ms-input-placeholder {
+  color: #cecece;
+}
+
+.input-group button {
+  position: absolute;
+  top: 20px;
+  right: 19px;
+  border: none;
+  padding: 0;
+  background: transparent;
+  color: #00a3ff;
+  font-size: 29px;
 }
